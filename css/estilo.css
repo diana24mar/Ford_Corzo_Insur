@@ -1,0 +1,698 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: auto;
+}
+
+/**La portada*/
+.fondo {
+    background-image: url(../img/tenor.gif);
+    /** colocar la imagen*/
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (min-width: 598px) {
+    .fondo {
+        background-image: url(../img/Ctyk.txt);
+        /** colocar la imagen*/
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 768px) {
+    .fondo {
+        background-image: url(../img/1.gif);
+        /** colocar la imagen*/
+        height: 100vh;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+/**Menu Desplegable*/
+.nav li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 53.3px;
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #83828259;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li il {
+    right: -140px;
+    top: 0px;
+}
+
+@media (min-width: 598px) {
+    .nav li a {
+        color: white;
+        background-color: rgba(62, 127, 248, 0.568);
+        text-decoration: none;
+        padding: 10px 55.2px;
+        display: block;
+        font-size: 1.4em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'PT Sans', sans-serif;
+    }
+
+    .nav>li {
+        float: left;
+    }
+
+    .nav li a:hover {
+        background-color: #83828259;
+    }
+
+    .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+    }
+
+    .nav li:hover>ul {
+        display: block;
+    }
+
+    .nav li ul li {
+        position: relative;
+    }
+
+    .nav li ul li il {
+        right: -140px;
+        top: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav li a {
+        color: white;
+        background-color: black;
+        text-decoration: none;
+        margin: auto;
+        padding: 16px 167.1px;
+        display: block;
+        font-size: 1.7em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li a:hover {
+    background-color: #434343;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+.nav li ul li il {
+    right: -140px;
+    top: 0px;
+}
+
+/**Globales*/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.seccion1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.seccion2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fw-300 {
+    font-weight: 900;
+    /**tamaño de letra*/
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5.9vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding: 30px;
+}
+.centrartxt {
+    text-align: center;
+    /**centrar letra*/
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.contenedor {
+    width: 98%;
+    margin: 10px auto;
+}
+
+/**los precios de los carros*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.lista-precios>li {
+    padding: 10px;
+}
+
+@media only screen and (min-width:768px) {
+    ul.lista-precios>li {
+        float: left;
+        width: 33.3%;
+    }
+}
+
+div.tabla-precio:hover {
+    transform: scale(1.1);
+    border: 2px solid #fe4918;
+    box-shadow: 0px 0px 50px #666;
+    transition: all .4s;
+}
+
+div.tabla-precio {
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+div.tabla-precio ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #868686;
+    line-height: 26px;
+}
+
+div.tabla-precio ul li::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 20px;
+    color: red;
+    -webkit-font-smoothing: antialiased;
+    content: '\f00c';
+}
+
+div.tabla-precio h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+div.tabla-precio p.numero {
+    color: black;
+    margin: 20px 0;
+}
+
+/**Botones*/
+.button {
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #fe4918;
+}
+
+.button .transparente {
+    background-color: transparent !important;
+    border: 2px solid white !important;
+}
+
+.button .hollow,
+.button .hollow:hover {
+    color: #fe4918 !important;
+    background-color: white !important;
+}
+
+.button:hover {
+    background-color: #e33000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+/**Testimonial*/
+div.testimoniales {
+    padding-bottom: 20px;
+}
+
+div.testimonial {
+    padding: 5px;
+}
+
+@media only screen and (min-width:768px) {
+    div.testimonial {
+        float: left;
+        width: 33.3%;
+    }
+}
+
+blockquote {
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    margin: 0 0 10px 0;
+    padding-bottom: 20px;
+}
+
+blockquote p {
+    text-align: justify !important;
+    font-size: 1em !important;
+    font-family: 'PT Sans', sans-serif;
+    padding: 0 20px 0 65px;
+}
+
+blockquote p::before {
+    content: '\201c';
+    position: absolute;
+    left: 13px;
+    top: 8px;
+    font-size: 8rem;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #fe4918;
+}
+
+footer.info-testimonial {
+    padding: 0;
+}
+
+footer.info-testimonial img {
+    float: left;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 20px;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease;
+}
+
+footer.info-testimonial:hover img {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+}
+
+footer.info-testimonial cite {
+    text-align: left;
+    color: #fe4918;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 20px;
+    width: 66.6%;
+    float: right;
+    font-weight: bold;
+    font-style: normal;
+}
+
+footer.info-testimonial cite span {
+    color: black;
+    display: block;
+    text-transform: none;
+    margin-top: 5px;
+}
+
+/**Video*/
+section.programas {
+    position: relative;
+}
+
+div.contenedor-video {
+    width: auto;
+    height: 10%;
+    margin: auto;
+    overflow-x: hidden;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+div.contenido-programa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/**Imagen de registro*/
+.fon {
+    width: 103%;
+    background-image: url(../img/a1eb3278483e10058a2110145edef087_700x0.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.datos {
+    padding: 20%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.datos p {
+    font-size: 2.3em;
+    color: #fe4918;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.datos p span {
+    font-size: 1em;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.datos h3 {
+    font-size: 2em;
+    color: #fe4918;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.datos h3 span {
+    font-size: 1em;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+main{
+    margin: 20% 0 0 0;
+}
+/**footer*/
+footer {
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+    margin: 0 0 0 0;
+    padding: 50px 0px;
+}
+footer .contenedor > div{
+    color: #ffffff;
+    padding: 0px 60px 0;
+    font-size: 1.3em;
+}
+@media only screen and (min-width:768px) {
+    footer .contenedor>div {
+        width: 33.3%;
+        float: left;
+    }
+}
+footer h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+footer h3 span{
+    color: #fe4918;
+}
+footer .ultimos-tweets li{
+    margin-bottom: 10px;
+}
+footer nav.redes-sociales{
+    text-align: left;
+}
+/**Redes Sociales*/
+nav.redes-sociales {
+    text-align: center;
+}
+
+nav.redes-sociales a {
+    color: white;
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+nav.redes-sociales a:last-child {
+    margin-right: 0;
+}
+p.copyright {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 0 0;
+    font-family: 'PT Sans', sans-serif;
+}
+/**mision misio y informacion*/
+.misiones{
+    color: #fe4918;
+    text-align: center;
+    font-size: 2em;
+    margin: 50px;
+    font-family: 'PT Sans', sans-serif;
+}
+.mision{
+    color: black;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.mision span{
+    color:#fe4918;
+    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.imagen{
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;/**alinacion verticalmente*/
+    border-style: none;
+    max-width: 100%;
+}
+.mision p{
+    width: 50%;
+    margin: 0px;
+    justify-content: space-between;
+}
+/**Registro*/
+.formulario-contacto{
+	background-color: #ffffff;
+    padding: 5rem;
+    
+}
+@media (min-width: 768px) {
+	.formulario-contacto{
+		margin-top: -10rem;
+	}
+}
+.formulario-contacto .campo{
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 3rem;
+}
+.formulario-contacto .campo label{
+    flex: 0 0 8rem;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+}
+.formulario-contacto .campo input:not([type="submit"]){
+	flex: 1;
+	border: 1px solid #e1e1e1;	
+    padding: 1rem;
+}
+@media (min-width: 800px) {	
+	.grid{
+		display: flex;
+		justify-content: space-between;
+        flex-wrap: wrap;
+        font-family: 'PT Sans', sans-serif;
+    font-size: 1.3rem;
+	}
+	.centrar-columna{
+		justify-content: center;
+	}
+	.columna-4{
+		flex: 0 0 calc(33.3% - 1rem);
+	}
+	.columna-6{
+		flex: 0 0 calc(50% - 1rem);
+	}
+	.columna-8{
+		flex: 0 0 calc(66.6% - 1rem);
+	}
+	.columna-10{
+		flex: 0 0 calc(83.3% - 1rem);
+	}
+}
+.contenedor1 {
+	max-width: 1200px;/**1200px*/
+	width: 95%;
+	margin: 0 auto;
+}
+.button1 {
+    background-color: black;
+    padding: 10px 50px;
+    margin: 0 20px 0 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #fe4918;
+    text-align: center;
+}
+/**barra de la principal*/
+.site-heade{
+    background-color: black;
+    padding: 20px;
+}
+.nave a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 110px;
+    font-size: 1.3em;
+    font-family: 'PT Sans', sans-serif;
+}
+/**ajustes de los carros*/
+.contenedor {
+    width: 98%;
+    margin: 10px auto;
+}
+
+/**los precios de los carros*/
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.lista-precios1>li {
+    padding: 10px;
+}
+ul.lista-precios2 >li {
+    padding: 10px;
+}
+
+@media only screen and (min-width:768px) {
+    ul.lista-precios1>li {
+        float: left;
+        width: 33.3%;
+    }
+}
+
+div.tabla-precio1:hover {
+    transform: scale(1.1);
+    border: 2px solid #fe4918;
+    box-shadow: 0px 0px 50px #666;
+    transition: all .4s;
+}
+
+div.tabla-precio1 {
+    border: 1px solid #e1e1e1;
+    background-color: #ffffff;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+div.tabla-precio1 ul li {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #868686;
+    line-height: 26px;
+}
+
+div.tabla-precio1 ul li::before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    font-size: 20px;
+    color: red;
+    -webkit-font-smoothing: antialiased;
+    content: '\f00c';
+}
+
+div.tabla-precio1 h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+div.tabla-precio1 p.numero1 {
+    color: black;
+    margin: 20px 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myAppNissan" ng-controller="MainCTRL">  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title ng-bind="head.title"></title>
+    <link rel="shortcut icon" href="{{head.icon}}" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/21b54dd064.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fondo">
+        <h1>Ford Corzo Insur <span>| México</span></h1>
+        <div class="contenedor clearfix">
+        </div>
+    </header>
+    <header class="site-header menu  clearfix">
+        <nav>
+            <ul class="nav">
+                <li><a href="#">somos</a>
+                    <ul>
+                        <li><a href="#" class="submenu">Misión</a></li>
+                        <li><a href="vision.html" class="submenu">visi&oacute;n</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html">Regresar</a></li>
+                <li><a href="Registro.html" class="boton-prin">Registrar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="mision">
+        <h1 class="misiones">Sobre Nosotros</h1>
+        <p class="mision">Ford Corzo Insur <span>| México</span> es una empresa 100% mexicana utilizamos los
+        mejores materiales para la construccion de los mejores vehículos de mexico para los diferentes estilos de vida
+       de cada familia de mexicana. Y ofresemos las mejores soluciones de movilidad.</p>
+    <div class="imagen">
+        <img src="img/mision.gif" alt="gif de imagen">
+    </div>
+    </section>
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros <span>vehículos</span></h3>
+                <ul>
+                    <li>autos</li>
+                    <li>MUSTANG</li>
+                    <li>Proximos lanzamientos</li>
+                    <li>camiones</li>
+                </ul>
+            </div><!--footer-ultimos-tweets-->
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros<span>servicios</span></h3>
+                <ul>
+                    <li>pastes Originales</li>
+                    <li>programas de matenimiento</li>
+                    <li>Estensión de garantía</li>
+                    <li>Beneficios de servicios</li>
+                </ul>
+            </div><!--ultimos-tweets-->
+            <div class="clearfix">
+                <h3>redes <span>sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div><!--menu-->
+        </div>
+        <p class="copyright">
+            Todos los derechos Reservados @ Grupo TechMex 2020
+        </p>
+    </footer>
+<script src="libs/angular.min.js"></script>
+<script src="libs/jquery.min.js"></script>
+<script src="controllers/app.js"></script>
+</body>
+</html>

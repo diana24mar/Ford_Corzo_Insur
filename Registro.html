@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myAppNissan" ng-controller="MainCTRL">  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title ng-bind="head.title"></title>
+    <link rel="shortcut icon" href="{{head.icon}}" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/21b54dd064.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="fondo">
+        <h1>Ford Corzo Insur <span>| México</span></h1>
+        <div class="contenedor clearfix">
+        </div>
+    </header>
+    <header class="site-header menu  clearfix">
+        <nav>
+            <ul class="nav">
+                <li><a href="informacion.html"> qienes somos</a></li>
+                <li><a href="index.html">Salir</a></li>
+                <li><a href="iniciar.html" class="boton-prin">Iniciar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <mai class="contenedor1">
+		<h2 class="centrartxt">Registro</h2>
+		<div class="grid centrar-columna">
+			<div class="columnas-12">
+				<img src="img/ford_mustang_2020_1.jpg" alt="Imagen contacto">
+			</div>
+			<div class="columna-10 formulario-contacto">
+				<form action="#">
+					<div class="campo">
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="campo">
+						<label for="Apellidos">Apellidos:</label>
+						<input type="text" id="apellidos" placeholder="Tu apellidos" required>
+                    </div>
+					<div class="campo">
+						<label for="telefono">Telefono:</label>
+						<input type="number" id="telefono" placeholder="Telefono" required>
+                    </div>
+                    <div class="campo">
+						<label for="nif">NIF:</label>
+						<input type="number" id="nif" placeholder="Tu NIF" required>
+                    </div>
+                    <div class="campo">
+						<label for="Direccion">Direccion:</label>
+						<input type="text" id="direccion" placeholder="Tu direccion" required>
+                    </div>
+                    <div class="campo">
+						<label for="email">E-Mail:</label>
+						<input type="email" id="email" placeholder="Tu Correo electronico" required>
+                    </div>
+                    <div class="campo">
+						<label for="contraseña">Contraseña:</label>
+						<input type="password" id="contra" placeholder="Escribe una contrasela" required>
+					</div>
+                    <a href="Pricipal.html" class="button1 transparente">Registrar</a>
+                    </div>
+				</form>
+			</div>
+		</div>	
+	</mai>
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros <span>vehículos</span></h3>
+                <ul>
+                    <li>autos</li>
+                    <li>MUSTANG</li>
+                    <li>Proximos lanzamientos</li>
+                    <li>camiones</li>
+                </ul>
+            </div><!--footer-ultimos-tweets-->
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros<span>servicios</span></h3>
+                <ul>
+                    <li>pastes Originales</li>
+                    <li>programas de matenimiento</li>
+                    <li>Estensión de garantía</li>
+                    <li>Beneficios de servicios</li>
+                </ul>
+            </div><!--ultimos-tweets-->
+            <div class="clearfix">
+                <h3>redes <span>sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div><!--menu-->
+        </div>
+        <p class="copyright">
+            Todos los derechos Reservados @ Grupo TechMex 2020
+        </p>
+    </footer>
+<script src="libs/angular.min.js"></script>
+<script src="libs/jquery.min.js"></script>
+<script src="controllers/app.js"></script>
+</body>
+</html>
