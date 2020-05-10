@@ -624,6 +624,11 @@
                 ],
                 "group": [],
                 "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$950,000"
+                    }
+                },
                 "models": [],
                 "path": "/content/ford/mx/es_mx/home/performance/shelby-gt500.html",
                 "currency": "$",
@@ -643,7 +648,7 @@
                 "bodyType": [],
                 "pricing": {
                     "min": {
-                        "priceVat": "$0"
+                        "priceVat": "$870,000"
                     }
                 },
                 "models": [],

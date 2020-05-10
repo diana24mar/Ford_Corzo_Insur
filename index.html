@@ -39,38 +39,44 @@
             <ul class="lista-precios1 clearfix">
                 <li>
                     <div class="tabla-precio1">
-                        <img src="img/carro4.webp" alt="imagen carro">
-                        <p class="numero1">$349,500</p>
-                        <ul>
-                            <li>EcoSport 2020</li>
-                            <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
-                            <li>para 5 pasajeros</li>
-                        </ul>
-                        <a href="#" class="button hollow">cotizaci&oacute;n</a>
+                        <div class="img-rnd0">
+                            <img src="{{sendData[0].image}}" alt="imagen carro">
+                            <p class="numero1" ng-bind="sendData[0].pricing"></p>
+                            <ul>
+                                <li ng-bind="sendData[0].name"></li>
+                                <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
+                                <li>para 5 pasajeros</li>
+                            </ul>
+                            <a href="#" class="button hollow">cotizaci&oacute;n</a>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div class="tabla-precio1">
-                        <img src="img/carro5.webp" alt="imagen carro">
-                        <p class="numero1">$676,800</p>
-                        <ul>
-                            <li>Escape 2020</li>
-                            <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
-                            <li>para 6 pasajeros</li>
-                        </ul>
-                        <a href="#" class="button">cotizaci&oacute;n</a>
+                        <div class="img-rnd0">
+                            <img src="{{sendData[1].image}}" alt="imagen carro">
+                            <p class="numero1" ng-bind="sendData[1].pricing"></p>
+                            <ul>
+                                <li ng-bind="sendData[1].name"></li>
+                                <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
+                                <li>para 6 pasajeros</li>
+                            </ul>
+                            <a href="#" class="button">cotizaci&oacute;n</a>
+                        </div>
                     </div>
                 </li>
                 <li>
                     <div class="tabla-precio">
-                        <img src="img/carro6.webp" alt="imagen carro">
-                        <p class="numero">$349,500</p>
-                        <ul>
-                            <li>EcoSport 2020</li>
-                            <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
-                            <li>para 4 personas</li>
-                        </ul>
-                        <a href="#" class="button hollow">cotizaci&oacute;n</a>
+                        <div class="img-rnd0">
+                            <img src="{{sendData[2].image}}" alt="imagen carro">
+                            <p class="numero" ng-bind="sendData[2].pricing"></p>
+                            <ul>
+                                <li ng-bind="sendData[2].name"></li>
+                                <li>motor 2.0L EcoBoost® 250 HP 275 lb-pie de torque</li>
+                                <li>para 4 personas</li>
+                            </ul>
+                            <a href="#" class="button hollow">cotizaci&oacute;n</a>
+                        </div>
                     </div>
                 </li>
             </ul>
