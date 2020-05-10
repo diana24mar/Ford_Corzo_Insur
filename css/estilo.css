@@ -9,13 +9,17 @@ html {
     margin: auto;
 }
 
+
 /**La portada*/
+
 .fondo {
     background-image: url(../img/tenor.gif);
     /** colocar la imagen*/
     height: 100vh;
     background-position: center center;
     background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
     background-attachment: fixed;
 }
 
@@ -41,7 +45,9 @@ html {
     }
 }
 
+
 /**Menu Desplegable*/
+
 .nav li a {
     color: black;
     text-decoration: none;
@@ -90,31 +96,24 @@ html {
         font-size: 1.4em;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'PT Sans', sans-serif;
     }
-
     .nav>li {
         float: left;
     }
-
     .nav li a:hover {
         background-color: #83828259;
     }
-
     .nav li ul {
         display: none;
         position: absolute;
         min-width: 140px;
     }
-
     .nav li:hover>ul {
         display: block;
     }
-
     .nav li ul li {
         position: relative;
     }
-
     .nav li ul li il {
         right: -140px;
         top: 0px;
@@ -163,24 +162,30 @@ html {
     top: 0px;
 }
 
+
 /**Globales*/
+
 .seccion {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .seccion1 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .seccion2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .fw-300 {
     font-weight: 900;
     /**tamaño de letra*/
 }
-h1{
+
+h1 {
     color: white;
     text-align: center;
     font-size: 5.9vw;
@@ -189,6 +194,7 @@ h1{
     font-family: 'PT Sans', sans-serif;
     padding: 30px;
 }
+
 .centrartxt {
     text-align: center;
     /**centrar letra*/
@@ -202,7 +208,9 @@ h1{
     margin: 10px auto;
 }
 
+
 /**los precios de los carros*/
+
 ul {
     list-style: none;
     margin: 0;
@@ -265,7 +273,9 @@ div.tabla-precio p.numero {
     margin: 20px 0;
 }
 
+
 /**Botones*/
+
 .button {
     background-color: black;
     padding: 10px 40px;
@@ -303,7 +313,9 @@ h2 {
     text-transform: uppercase;
 }
 
+
 /**Testimonial*/
+
 div.testimoniales {
     padding-bottom: 20px;
 }
@@ -383,7 +395,9 @@ footer.info-testimonial cite span {
     margin-top: 5px;
 }
 
+
 /**Video*/
+
 section.programas {
     position: relative;
 }
@@ -405,7 +419,9 @@ div.contenido-programa {
     width: 100%;
 }
 
+
 /**Imagen de registro*/
+
 .fon {
     width: 103%;
     background-image: url(../img/a1eb3278483e10058a2110145edef087_700x0.jpg);
@@ -446,10 +462,14 @@ div.contenido-programa {
     color: white;
     font-family: 'PT Sans', sans-serif;
 }
-main{
+
+main {
     margin: 20% 0 0 0;
 }
+
+
 /**footer*/
+
 footer {
     background-color: #353535;
     padding-top: 40px;
@@ -457,33 +477,42 @@ footer {
     margin: 0 0 0 0;
     padding: 50px 0px;
 }
-footer .contenedor > div{
+
+footer .contenedor>div {
     color: #ffffff;
     padding: 0px 60px 0;
     font-size: 1.3em;
 }
+
 @media only screen and (min-width:768px) {
     footer .contenedor>div {
         width: 33.3%;
         float: left;
     }
 }
-footer h3{
+
+footer h3 {
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     margin-bottom: 20px;
 }
-footer h3 span{
+
+footer h3 span {
     color: #fe4918;
 }
-footer .ultimos-tweets li{
+
+footer .ultimos-tweets li {
     margin-bottom: 10px;
 }
-footer nav.redes-sociales{
+
+footer nav.redes-sociales {
     text-align: left;
 }
+
+
 /**Redes Sociales*/
+
 nav.redes-sociales {
     text-align: center;
 }
@@ -497,6 +526,7 @@ nav.redes-sociales a {
 nav.redes-sociales a:last-child {
     margin-right: 0;
 }
+
 p.copyright {
     background-color: #2e2e2e;
     color: white;
@@ -505,95 +535,113 @@ p.copyright {
     margin: 20px 0 0;
     font-family: 'PT Sans', sans-serif;
 }
+
+
 /**mision misio y informacion*/
-.misiones{
+
+.misiones {
     color: #fe4918;
     text-align: center;
     font-size: 2em;
     margin: 50px;
     font-family: 'PT Sans', sans-serif;
 }
-.mision{
+
+.mision {
     color: black;
     text-align: justify;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
 }
-.mision span{
-    color:#fe4918;
+
+.mision span {
+    color: #fe4918;
     text-align: justify;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
 }
-.imagen{
+
+.imagen {
     text-align: right;
     margin: 0px;
     padding: 0px;
-    align-items: center;/**alinacion verticalmente*/
+    align-items: center;
+    /**alinacion verticalmente*/
     border-style: none;
     max-width: 100%;
 }
-.mision p{
+
+.mision p {
     width: 50%;
     margin: 0px;
     justify-content: space-between;
 }
+
+
 /**Registro*/
-.formulario-contacto{
-	background-color: #ffffff;
+
+.formulario-contacto {
+    background-color: #ffffff;
     padding: 5rem;
-    
 }
+
 @media (min-width: 768px) {
-	.formulario-contacto{
-		margin-top: -10rem;
-	}
+    .formulario-contacto {
+        margin-top: -10rem;
+    }
 }
-.formulario-contacto .campo{
-	display: flex;
-	justify-content: space-between;
+
+.formulario-contacto .campo {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 3rem;
 }
-.formulario-contacto .campo label{
+
+.formulario-contacto .campo label {
     flex: 0 0 8rem;
     text-transform: uppercase;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.5rem;
 }
-.formulario-contacto .campo input:not([type="submit"]){
-	flex: 1;
-	border: 1px solid #e1e1e1;	
+
+.formulario-contacto .campo input:not([type="submit"]) {
+    flex: 1;
+    border: 1px solid #e1e1e1;
     padding: 1rem;
 }
-@media (min-width: 800px) {	
-	.grid{
-		display: flex;
-		justify-content: space-between;
+
+@media (min-width: 800px) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         font-family: 'PT Sans', sans-serif;
-    font-size: 1.3rem;
-	}
-	.centrar-columna{
-		justify-content: center;
-	}
-	.columna-4{
-		flex: 0 0 calc(33.3% - 1rem);
-	}
-	.columna-6{
-		flex: 0 0 calc(50% - 1rem);
-	}
-	.columna-8{
-		flex: 0 0 calc(66.6% - 1rem);
-	}
-	.columna-10{
-		flex: 0 0 calc(83.3% - 1rem);
-	}
+        font-size: 1.3rem;
+    }
+    .centrar-columna {
+        justify-content: center;
+    }
+    .columna-4 {
+        flex: 0 0 calc(33.3% - 1rem);
+    }
+    .columna-6 {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .columna-8 {
+        flex: 0 0 calc(66.6% - 1rem);
+    }
+    .columna-10 {
+        flex: 0 0 calc(83.3% - 1rem);
+    }
 }
+
 .contenedor1 {
-	max-width: 1200px;/**1200px*/
-	width: 95%;
-	margin: 0 auto;
+    max-width: 1200px;
+    /**1200px*/
+    width: 95%;
+    margin: 0 auto;
 }
+
 .button1 {
     background-color: black;
     padding: 10px 50px;
@@ -610,12 +658,16 @@ p.copyright {
     border: 2px solid #fe4918;
     text-align: center;
 }
+
+
 /**barra de la principal*/
-.site-heade{
+
+.site-heade {
     background-color: black;
     padding: 20px;
 }
-.nave a{
+
+.nave a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -625,13 +677,18 @@ p.copyright {
     font-size: 1.3em;
     font-family: 'PT Sans', sans-serif;
 }
+
+
 /**ajustes de los carros*/
+
 .contenedor {
     width: 98%;
     margin: 10px auto;
 }
 
+
 /**los precios de los carros*/
+
 ul {
     list-style: none;
     margin: 0;
@@ -641,7 +698,8 @@ ul {
 ul.lista-precios1>li {
     padding: 10px;
 }
-ul.lista-precios2 >li {
+
+ul.lista-precios2>li {
     padding: 10px;
 }
 

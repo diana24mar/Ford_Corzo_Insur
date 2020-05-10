@@ -9,7 +9,8 @@ app.controller('MainCTRL', function($scope, $http) {
 
     $scope.head = {
         title: 'Ford Corzo Insur | México',
-        icon: 'img/icon_ford.png'
+        icon: 'img/icon_ford.png',
+        subTitle: 'Corzo Insur México'
     }
 
     $http.get("https://www.ford.mx/content/ford/mx/es_mx/.vehiclesmenu.data")
