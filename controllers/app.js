@@ -23,7 +23,7 @@ app.controller('MainCTRL', function($scope, $http) {
                         category: response.data[indexA].category,
                         code: response.data[indexA].nameplates[indexB].code,
                         name: response.data[indexA].nameplates[indexB].name,
-                        image: 'https://www.ford.mx/' + response.data[indexA].nameplates[indexB].image,
+                        image: 'https://www.ford.mx' + response.data[indexA].nameplates[indexB].image,
                         pricing: response.data[indexA].nameplates[indexB].pricing.min.priceVat
                     };
                     data.push($scope.content);
