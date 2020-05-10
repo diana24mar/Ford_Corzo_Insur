@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="myAppNissan" ng-controller="MainCTRL">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title ng-bind="head.title"></title>
+    <link rel="shortcut icon" href="{{head.icon}}" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/21b54dd064.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="rndCharterColors">
+        <div ng-repeat="charter in sendDataColors track by $index">
+            <a href="#" style="padding-right: 100px;"><img src="{{charter.derivativeFeatureImage}}"></a>
+            <div>
+                <h2>{{charter.label}}</h2>
+                <h3>{{charter.labelCar}}</h3>
+                <img src="{{charter.image}}" width="20%">
+            </div>
+        </div>
+    </div>
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros <span>vehículos</span></h3>
+                <ul>
+                    <li>autos</li>
+                    <li>MUSTANG</li>
+                    <li>Proximos lanzamientos</li>
+                    <li>camiones</li>
+                </ul>
+            </div>
+            <!--footer-ultimos-tweets-->
+            <div class="ultimos-tweets clearfix">
+                <h3>nuestros<span>servicios</span></h3>
+                <ul>
+                    <li>pastes Originales</li>
+                    <li>programas de matenimiento</li>
+                    <li>Estensión de garantía</li>
+                    <li>Beneficios de servicios</li>
+                </ul>
+            </div>
+            <!--ultimos-tweets-->
+            <div class="clearfix">
+                <h3>redes <span>sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+            <!--menu-->
+        </div>
+        <p class="copyright">
+            Todos los derechos Reservados @ Grupo TechMex 2020
+        </p>
+    </footer>
+    <script src="libs/angular.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="controllers/app.js"></script>
+</body>
+
+</html>
