@@ -753,4 +753,5 @@ div.tabla-precio1 h3 {
 div.tabla-precio1 p.numero1 {
     color: black;
     margin: 20px 0;
+    font-family: 'PT Sans', sans-serif;
 }
