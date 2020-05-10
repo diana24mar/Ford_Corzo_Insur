@@ -475,7 +475,7 @@ footer {
     padding-top: 40px;
     margin-top: 20px;
     margin: 0 0 0 0;
-    padding: 50px 0px;
+    padding: 55px 0px;
 }
 
 footer .contenedor>div {
@@ -504,13 +504,23 @@ footer h3 span {
 
 footer .ultimos-tweets li {
     margin-bottom: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
 }
 
 footer nav.redes-sociales {
     text-align: left;
 }
 
-
+p.copyright {
+    margin: 300px 0 0 0;
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
 /**Redes Sociales*/
 
 nav.redes-sociales {
@@ -526,17 +536,6 @@ nav.redes-sociales a {
 nav.redes-sociales a:last-child {
     margin-right: 0;
 }
-
-p.copyright {
-    background-color: #2e2e2e;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-    margin: 20px 0 0;
-    font-family: 'PT Sans', sans-serif;
-}
-
-
 /**mision visio y informacion*/
 
 .misiones {
