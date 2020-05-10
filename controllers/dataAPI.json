@@ -1,0 +1,795 @@
+[{
+        "category": "SUVs & Crossovers",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+                "code": "EcoSport_2020_MEX",
+                "name": "EcoSport 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/ecosport/2020/showroom/fmx-showroom-ecosport-2020-plata.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$349,500"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/ecosport/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Escape_2020_MEX",
+                "name": "Escape 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/escape/2020/showroom/ford-escape-2020-camioneta-suv-nueva-exterior-frente-plata.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$676,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/escape/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Edge_2019_MEX",
+                "name": "Edge 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/edge/2019/showroom/ford-edge-2019-camioneta-suv-crossover-exterior-frente-blanco.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$685,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/edge/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Edge_2020_MEX",
+                "name": "Edge 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/edge/2020/showroom/ford-edge-2020-camioneta-suv-crossover-exterior-frente-plata.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$755,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/edge/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Explorer_2020_MEX",
+                "name": "Explorer 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/explorer/2020/showroom/ford-explorer-2020-camioneta-suv-exterior.jpg",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$888,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/explorer/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Expedition_2019_MEX",
+                "name": "Expedition 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/expedition/2019/showroom/ford-expedition-2019-camioneta-suv-exterior-frente.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,204,600"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/expedition/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Expedition_2020_MEX",
+                "name": "Expedition 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/expedition/2020/showroom/ford-expedition-2020-camioneta-suv-exterior-frente.png",
+                "vehicleType": [
+                    "SUVs & Crossovers"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,309,200"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/expedition/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            }
+        ]
+    },
+    {
+        "category": "Autos",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+                "code": "Figo_2019_MEX",
+                "name": "Figo 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/figo/2019/showroom/ford-figo-2019-auto-compacto-lateral-blanco.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$221,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/figo/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Figo_2020_MEX",
+                "name": "Figo 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/figo/2020/showroom/ford-figo-2020-auto-compacto-sedan-exterior.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$238,000"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/figo/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Fusion_2019_MEX",
+                "name": "Fusion 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/fusion/fusion-2019/showroom/ford-fusion-2019-auto-sedan-exterior-lateral.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$506,700"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/fusion/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Fusion_2020_MEX",
+                "name": "Fusion 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/fusion/fusion-2020/showroom/fmx-fusion-2020-showroom.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$621,200"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/fusion/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Mustang_2019_MEX",
+                "name": "Mustang 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/mustang/2019/showroom/ford-mustang-2019-auto-deportivo-exterior-frente--blanco.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$677,600"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/mustang/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Mustang_2020_MEX",
+                "name": "Mustang 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/mustang/2020/showrrom/ford-mustang-2020-auto-deportivo-muscle-car-exterior-azul.png",
+                "vehicleType": [
+                    "Autos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$815,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/mustang/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            }
+        ]
+    },
+    {
+        "category": "Híbridos",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+                "code": "Fusion_Hibrido_2020_MEX",
+                "name": "Fusion Híbrido 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/fusion-hibrido/2020/showroom/fmx-showroom-fusion-hibrido-2020.png",
+                "vehicleType": [
+                    "Híbridos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$651,900"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/autos/fusion-hibrido/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Escape_Hybrid_2020_MEX",
+                "name": "Escape SE Sport Hybrid",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/escape-hybrid/sport/2020/models/se-sport-hybrid/ford-escape-hibrida-hybrid-2020-camioneta-suv-nueva-exterior-frente-blanca.jpg",
+                "vehicleType": [
+                    "Híbridos"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$650,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/suv/escape-hibrida/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            }
+        ]
+    },
+    {
+        "category": "Camiones",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+                "code": "Ranger_2020_MEX",
+                "name": "Ranger 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/ranger/ranger-2020/teaser/fmx-showroom-ranger-2020.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$409,100"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/ranger/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Lobo_2019_MEX",
+                "name": "Lobo 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/lobo-2019/showroom/ford-lobo-2019-camioneta-pick-up-exterior.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$732,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/lobo/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Lobo_2020_MEX",
+                "name": "Lobo 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/lobo-2020/showroom/ford-lobo-2020-camioneta-pick-up-exterior.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$804,200"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/lobo/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "F-150-2019_MEX",
+                "name": "F-150 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/f-150-2019/showroom/ford-f150-2019-camioneta-pick-up-exterior.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$521,300"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/f150/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "F-150_2020_MEX",
+                "name": "F-150 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/f-150-2020/showroom/ford-f150-2020-camioneta-pick-up-exterior.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$575,900"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/f150/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "F-250_2020_MEX",
+                "name": "F-250 Super Duty 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/f-250/2020/showroom/ford-f250-super-duty-2020-camioneta-pick-up-exterior.jpg",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,130,600"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/f250/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Super_Duty_Chasis_2019_MEX",
+                "name": "Super Duty Chasis 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/super-duty/2019/showroom/ford-serie-f-super-duty-chasis-2019-camion-exterior-lateral.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$623,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/super-duty-chasis/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Super_Duty_Chasis_2020_MEX",
+                "name": "Super Duty Chasis 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/super-duty/2020/showroom/ford-super-duty-chasis-2020-camion-serie-f-exterior.jpg",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$689,000"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/super-duty-chasis/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Transit_Pasajeros_2020_MEX",
+                "name": "Transit Pasajeros 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/transit/pasajeros/2020/showroom/ford-transit-pasajeros-2020-camion-camioneta-van-bus-exterior-blanca-frente.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$687,500"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/transit/pasajeros/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Transit_Custom_2020_MEX",
+                "name": "Transit Custom 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/transit/custom/2020/showroom/ford-transit-custom-2020-camioneta-cargo-van-exterior-lateral.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$514,300"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/transit/custom/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Transit_Van_2020_MEX",
+                "name": "Transit Van 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/transit/van/2020/showroom/ford-transit-van-2020-camioneta-exterior-lateral.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$665,100"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/transit/van/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Transit_Chasis_2020_MEX",
+                "name": "Transit Chasis 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/transit/chasis/2020/showroom/ford-transit-chasis-2020-camion-exterior.png",
+                "vehicleType": [
+                    "Camiones"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$547,800"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/camiones/transit/chasis/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            }
+        ]
+    },
+    {
+        "category": "Performance",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+                "code": "Shelby_GT500_2020_MEX",
+                "name": "Shelby GT500",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/shelby-gt500/2020/showroom/ford-shelby-gt500-2020-mustang-emblema-cobra-auto-deportivo.jpg",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/shelby-gt500.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "FORD_GT_MEX",
+                "name": "FORD GT",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/ford-gt/fmx-ford-gt-showroom.jpg",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$0"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/GT.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Edge_ST_2019_MEX",
+                "name": "Edge ST 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/edge-st-2019/thumbnails/ford-edge-st-2019-camioneta-suv-deportiva-exterior-frente-blanco.png",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$850,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/edge-st/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Edge_ST_2020_MEX",
+                "name": "Edge ST 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/edge-st-2020/thumbnails/ford-edge-st-2020-camioneta-suv-deportiva-exterior.png",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$923,700"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/edge-st/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Explorer_ST_2020_MEX",
+                "name": "Explorer ST 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/explorer-st/2020/showroom/ford-explorer-st-2020-camioneta-suv-deportiva-exterior.jpg",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,084,400"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/explorer-st/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Raptor_2019_MEX",
+                "name": "Ford Raptor 2019",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/raptor-2018/2019/thumbnails/ford-raptor-2019-camioneta-pick-up-performance-exterior.png",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,341,100"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/raptor/2019.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            },
+            {
+                "code": "Raptor_2020_MEX",
+                "name": "Ford Raptor 2020",
+                "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/raptor-2020/showroom/ford-raptor-2020-camioneta-pick-up-performance-exterior.png",
+                "vehicleType": [
+                    "Performance"
+                ],
+                "group": [],
+                "bodyType": [],
+                "pricing": {
+                    "min": {
+                        "priceVat": "$1,467,700"
+                    }
+                },
+                "models": [],
+                "path": "/content/ford/mx/es_mx/home/performance/raptor/2020.html",
+                "currency": "$",
+                "attributeItemModels": [{
+                    "prefix": " ",
+                    "attributeId": "price-retail"
+                }]
+            }
+        ]
+    },
+    {
+        "category": "Ediciones Especiales",
+        "actionButtons": "<p style=\"text-align: center;\"><a class=\" cta-button cta-button-primary \" href=\"/content/ford/mx/es_mx/home/todos-los-vehiculos.html\" _link_style=\"cta-button cta-button-primary\">Todos</a></p>\n",
+        "nameplates": [{
+            "code": "Mustang_Bullitt_MEX",
+            "name": "Mustang Bullitt 2020",
+            "image": "/content/dam/Ford/website-assets/latam/mx/nameplate/mustang/2020/models/bullitt/ford-mustang-bullitt-2020-auto-deportivo-leyenda-exterior-verde-frente.png",
+            "vehicleType": [
+                "Ediciones Especiales"
+            ],
+            "group": [],
+            "bodyType": [],
+            "pricing": {
+                "min": {
+                    "priceVat": "$1,040,000"
+                }
+            },
+            "models": [],
+            "path": "/content/ford/mx/es_mx/home/autos/mustang-bullitt/2020.html",
+            "currency": "$",
+            "attributeItemModels": [{
+                "prefix": " ",
+                "attributeId": "price-retail"
+            }]
+        }]
+    }
+]

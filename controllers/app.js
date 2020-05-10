@@ -2,6 +2,11 @@
 
 var app = angular.module('myAppNissan', []);
 
+app.config(function($httpProvider) {
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common['X-Requested-With'];
+});
+
 app.controller('MainCTRL', function($scope, $http) {
     $scope.head = {};
     $scope.body = {};
@@ -13,11 +18,11 @@ app.controller('MainCTRL', function($scope, $http) {
         subTitle: 'Corzo Insur México'
     }
 
-    $http.get("https://www.ford.mx/content/ford/mx/es_mx/.vehiclesmenu.data")
+    $http.get("/controllers/dataAPI.json")
         .then(function(response) {
             $scope.content = response.data;
-            console.log(response.data);
+            console.log(JSON.stringify($scope.content[0]))
         }, function(response) {
-            $scope.content = "Ocurrió un error en la aplicación";
+            $scope.content = "Something went wrong";
         });
 });
