@@ -537,7 +537,7 @@ p.copyright {
 }
 
 
-/**mision misio y informacion*/
+/**mision visio y informacion*/
 
 .misiones {
     color: #fe4918;
@@ -685,8 +685,6 @@ p.copyright {
     width: 98%;
     margin: 10px auto;
 }
-
-
 /**los precios de los carros*/
 
 ul {
@@ -754,4 +752,9 @@ div.tabla-precio1 p.numero1 {
     color: black;
     margin: 20px 0;
     font-family: 'PT Sans', sans-serif;
+}
+/**logo de la empresa*/
+.parrafo{
+    text-align: center;
+    font-size: 2em;
 }
