@@ -8,6 +8,9 @@ app.controller('MainCTRL', function($scope, $http) {
     $scope.sendData = {};
     let data = [];
     $scope.content = [];
+    let dataCharterColors = [];
+    $scope.dataCharter = [];
+    $scope.sendDataColors = {};
 
     $scope.head = {
         title: 'Ford Corzo Insur | México',
@@ -39,6 +42,35 @@ app.controller('MainCTRL', function($scope, $http) {
         for (let index = 0; index < 3; index++) {
             const element = Math.floor((Math.random() * (data.length - 1)) + 1);
             rnd.push(data[element]);
+        }
+        return rnd;
+    };
+
+    $http.get("/controllers/colorsChange.json")
+        .then(function(response) {
+            for (let indexA = 0; indexA < response.data[0].models.length; indexA++) {
+                for (let indexB = 0; indexB < response.data[0].models[indexA].colortrim.color.items.length; indexB++) {
+                    $scope.dataCharter = {
+                        id: indexB,
+                        label: response.data[0].label,
+                        labelCar: response.data[0].models[indexA].label,
+                        colorName: response.data[0].models[indexA].colortrim.color.items[indexB].featureName,
+                        imageName: 'https://www.ford.mx' + response.data[0].models[indexA].colortrim.color.items[indexB].billboardImage,
+                        derivativeFeatureImage: 'https://www.ford.mx' + response.data[0].models[indexA].colortrim.color.items[indexB].derivativeFeatureImage,
+                        image: 'https://www.ford.mx' + response.data[0].models[indexA].colortrim.color.items[indexB].billboardImage
+                    };
+                    dataCharterColors.push($scope.dataCharter);
+                }
+            }
+            $scope.sendDataColors = $scope.configColorAutos(response.data[0].models.length, dataCharterColors);
+        }, function(response) {
+            $scope.content = "Error(402) No Data Found, the request is failed.";
+        });
+
+    $scope.configColorAutos = function(lng, data) {
+        let rnd = [];
+        for (let index = 0; index < lng; index++) {
+            rnd.push(data[index]);
         }
         return rnd;
     };
