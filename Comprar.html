@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="css/estilo.css">
     <script src="https://kit.fontawesome.com/21b54dd064.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|PT+Sans&display=swap" rel="stylesheet">
-    <Script>
+    <script>
         function mensaje(){
-           alert("Bienvenido..!")
-       }
-   </Script>
+            alert("Compra con Exito..!")
+        }
+    </script>
 </head>
 
 <body>
@@ -29,27 +29,39 @@
                 <li><a href="informacion.html"> qienes somos</a></li>
                 <li><a href="#" class="submenu">automoviles</a></li>
                 <li><a href="index.html">Salir</a></li>
-                <li><a href="#" class="boton-prin">Iniciar</a></li>
+                <li><a href="iniciar.html" class="boton-prin">Iniciar</a></li>
             </ul>
         </nav>
     </header>
     <mai class="contenedor1">
-		<h2 class="centrartxt">Iniciar</h2>
+		<h2 class="centrartxt">Registro</h2>
 		<div class="grid centrar-columna">
 			<div class="columnas-12">
 				<img src="img/ford_mustang_2020_1.jpg" alt="Imagen contacto">
 			</div>
 			<div class="columna-10 formulario-contacto">
 				<form action="#">
-                    <div class="campo">
-						<label for="email">E-Mail:</label>
-						<input type="email" id="email" placeholder="Tu Correo electronico" autocomplete="off" required>
+					<div class="campo">
+						<label for="nombre">Modelo:</label>
+						<input type="text" id="modelo" placeholder="Tu Nombre" required>
                     </div>
                     <div class="campo">
-						<label for="contraseña">Contraseña:</label>
-						<input type="password" id="contra" autocomplete="off" placeholder="contraseña..." required>
-					</div>
-                    <a href="Pricipal.html" class="button1 transparente" onclick="mensaje()">Iniciar</a>
+						<label for="Apellidos">Marca:</label>
+						<input type="text" id="marca" placeholder="Tu apellidos" required>
+                    </div>
+					<div class="campo">
+						<label for="telefono">matricula:</label>
+						<input type="text" id="matricula" placeholder="Telefono" required>
+                    </div>
+                    <div class="campo">
+						<label for="nif">color:</label>
+						<input type="text" id="color" placeholder="Tu NIF" required>
+                    </div>
+                    <div class="campo">
+						<label for="Direccion">Precio:</label>
+						<input type="text" id="precio" placeholder="Tu direccion" required>
+                    </div>
+                    <a href="#" class="button1 transparente" onclick="mensaje()">comprar</a>
                     </div>
 				</form>
 			</div>
